@@ -52,6 +52,7 @@ flowchart TD
 
     BW   -- "reads subscriptions to check" --> DB_PG
     BW   -- "sends renewal alerts via" --> EmailService
+``` 
 
 ## Design & Documentation
 
