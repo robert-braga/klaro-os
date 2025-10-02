@@ -1,0 +1,6 @@
+@Klaro.API_HostAddress = http://localhost:5095
+
+GET {{Klaro.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
