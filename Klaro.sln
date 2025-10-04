@@ -3,12 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klaro.Domain", "src\Klaro.Domain\Klaro.Domain.csproj", "{0C6749F7-61D8-BC98-CF50-DDF50140CBDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klaro.API", "src\Klaro.API\Klaro.API.csproj", "{C450BC08-9EAD-42AB-D05F-4F665EEBBE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klaro.Application", "src\Klaro.Application\Klaro.Application.csproj", "{D703DD9F-9AD7-F336-A7C6-BB87646E24F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klaro.Infrastructure", "src\Klaro.Infrastructure\Klaro.Infrastructure.csproj", "{B53FA2DD-7E20-E706-C0C8-A24A4ED9315B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6749F7-61D8-BC98-CF50-DDF50140CBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6749F7-61D8-BC98-CF50-DDF50140CBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6749F7-61D8-BC98-CF50-DDF50140CBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6749F7-61D8-BC98-CF50-DDF50140CBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C450BC08-9EAD-42AB-D05F-4F665EEBBE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C450BC08-9EAD-42AB-D05F-4F665EEBBE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C450BC08-9EAD-42AB-D05F-4F665EEBBE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C450BC08-9EAD-42AB-D05F-4F665EEBBE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D703DD9F-9AD7-F336-A7C6-BB87646E24F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D703DD9F-9AD7-F336-A7C6-BB87646E24F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D703DD9F-9AD7-F336-A7C6-BB87646E24F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D703DD9F-9AD7-F336-A7C6-BB87646E24F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53FA2DD-7E20-E706-C0C8-A24A4ED9315B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53FA2DD-7E20-E706-C0C8-A24A4ED9315B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53FA2DD-7E20-E706-C0C8-A24A4ED9315B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53FA2DD-7E20-E706-C0C8-A24A4ED9315B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B25AEE-A577-4E97-AFFD-0F02E14D5BB9}
 	EndGlobalSection
 EndGlobal
