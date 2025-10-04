@@ -21,11 +21,11 @@ namespace Klaro.Domain
 
         private Subscription() { }
 
-        public Subscription(Guid id, Guid userId, string name, decimal price, string currency, DateOnly renewalDate, string billingCycle)
+        public Subscription(Guid id, Guid userId, string name, Money price, DateOnly renewalDate, string billingCycle)
         {
-            if (price < 0)
+            if(price.Amount < 0)
             {
-                throw new ArgumentException("The price cannot be negative", nameof(price));
+                throw new ArgumentException("The price cannot be negative.", nameof(price));
             }
 
             if (billingCycle != "Monthly" || billingCycle != "Yearly")
@@ -37,7 +37,6 @@ namespace Klaro.Domain
             UserId = userId;
             Name = name;
             Price = price;
-            Currency = currency;
             RenewalDate = renewalDate;
             BillingCycle = billingCycle;
         }
