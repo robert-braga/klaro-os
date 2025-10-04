@@ -47,8 +47,8 @@ flowchart TD
     User -- "interacts with UI" --> FE
     FE   -- "calls API (HTTPS/JSON)" --> API
 
-    API  -- "reads/writes structured data" --> DB_PG
     API  -- "reads/writes unstructured data" --> DB_MONGO
+    API  -- "reads/writes structured data" --> DB_PG
 
     BW   -- "reads subscriptions to check" --> DB_PG
     BW   -- "sends renewal alerts via" --> EmailService
